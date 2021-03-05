@@ -1,0 +1,69 @@
+
+	header {
+		text-align: center;
+		margin: 20px;
+		font-size: x-large;
+		font-weight: bold;
+	}
+
+	div{
+		height: 100px;
+		width: 400px;
+		margin: 20px auto;
+		border: 1px solid black;
+		border-radius: 10px;
+		font-size: large;
+		padding: 5px;
+	}
+
+	.draggableElem {
+		border: 1px solid black;
+		margin: 2px;
+		padding: 2px;
+		display: inline-block;
+		border-radius: 5px;
+		font-size: large;
+	}
+
+	p {
+		width: 400px;
+		margin: 20px auto;
+		text-align: center;
+		font-size: large;
+	}
+
+	.removable {
+		background-color: aqua;
+	}
+
+	.right {
+		color: green;
+		font-size: large;
+	}
+
+	.wrong {
+		color: red;
+		font-size: large;
+	}
+
+	button {
+		background-color: #4CAF50;
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		font-size: large;
+		margin: 4px 2px;
+		cursor: pointer;
+		width: 400px;
+		border-radius: 10px;
+		display: block;
+		margin: 20px auto;
+
+	}
+
+	button#nextButton {
+		display: none
+	}
+
