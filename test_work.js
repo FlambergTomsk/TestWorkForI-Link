@@ -1,3 +1,4 @@
+(function(){
 let arr = [
 	{
 		id: 1,
@@ -151,4 +152,4 @@ function getInnerHTMLFromChildrenToString(parent) {
 	}
 	return arr.join(' ');
 }
-
+} ())
